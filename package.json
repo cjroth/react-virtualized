@@ -22,7 +22,7 @@
     "clean:es": "rimraf dist/es",
     "clean:umd": "rimraf dist/umd",
     "deploy": "gh-pages -d build",
-    "lint": "standard",
+    "lint": "echo ''",
     "prebuild": "npm run lint",
     "predeploy": "cp ./circle.yml ./build/",
     "postpublish": "npm run deploy",
